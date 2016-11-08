@@ -1,6 +1,6 @@
 {
   "name": "ng2stepper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Really simple stepper directive for angular2",
   "main": "ng2stepper.component.ts",
   "scripts": {
