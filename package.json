@@ -1,0 +1,23 @@
+{
+  "name": "ng2stepper",
+  "version": "1.0.0",
+  "description": "Really simple stepper directive for angular2",
+  "main": "ng2stepper.component.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lum1n@github.com/lum1n/ng2stepper.git"
+  },
+  "keywords": [
+    "angular2",
+    "stepper"
+  ],
+  "author": "Vegard Svendsen <vegards87@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lum1n/ng2stepper/issues"
+  },
+  "homepage": "https://github.com/lum1n/ng2stepper#readme"
+}
