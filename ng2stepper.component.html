@@ -1,0 +1,7 @@
+<div class="row">
+	<div class="col-md-12">
+		<ul class="stepper">
+            <li *ngFor="let item of arr; let i = index" [ngClass]="{'active': active >= i + 1}" [ngStyle]="{'width': (100 / elements) + '%'}"></li>
+		</ul>
+	</div>
+</div>

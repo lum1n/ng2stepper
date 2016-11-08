@@ -2,12 +2,12 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
     selector: 'ng2stepper',
-    templateUrl: 'progressbar.component.html',
-    styleUrls: [ 'progressbar.component.css' ]
+    templateUrl: 'ng2stepper.component.html',
+    styleUrls: [ 'ng2stepper.component.css' ]
 })
-export class ProgressbarComponent implements OnInit {
+export class ng2stepper implements OnInit {
 	arr: any = [];
-    @Input('numberOfElements') numberOfElements: number;
+    @Input('elements') elements: number;
     @Input('active') active: number;
 	
     constructor() {}
@@ -17,7 +17,7 @@ export class ProgressbarComponent implements OnInit {
      }
 
     private calcNumber() {
-		for (let i = 0; i < this.numberOfElements; i++) {
+		for (let i = 0; i < this.elements; i++) {
 			this.arr.push(i);
         }
     }

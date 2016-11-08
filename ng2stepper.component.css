@@ -1,15 +1,15 @@
-.progressbar {
+.stepper {
 		counter-reset: step;
 }
 
-.progressbar li {
+.stepper li {
     list-style-type: none;
     float: left;
     position: relative;
     text-align: center;
 }
 
-.progressbar li:before {
+.stepper li:before {
     content: counter(step);
     counter-increment: step;
     width: 50px;
@@ -23,7 +23,7 @@
     background-color: white;
 }
 
-.progressbar li:after {
+.stepper li:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -33,15 +33,15 @@
     left: -50%;
     z-index: -1;
 }
-.progressbar li:first-child:after {
+.stepper li:first-child:after {
     content: none;
 }
-.progressbar li.active:before {
+.stepper li.active:before {
     border-color: green;
     background-color: green;
     color: white;
     font-size: large;
 }
-.progressbar li.active + li:after {
+.stepper li.active + li:after {
     background-color: green;
 }
