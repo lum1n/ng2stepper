@@ -6,7 +6,10 @@ Really simple stepper directive for angular2
 
 ## How to
 
-- Clone or download .zip
+- npm install, clone or download .zip
+```
+npm install ng2stepper
+```
 
 - Import ng2stepper in your module:
 
