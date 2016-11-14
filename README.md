@@ -37,10 +37,21 @@ import { ng2stepper } from '{ YOUR_DIR_HERE }/ng2stepper/ng2stepper.component';
 <ng2stepper elements="4" active="2"></ng2stepper>
 ```
 
-- Add stepper in a table row:
+- (Optional) Add stepper in a table row:
  
 ```
 <ng2stepper elements="4" active="2" size="table"></ng2stepper>
 ```
+
+- (Optional) Add color ('green', 'yellow', 'red'). Default is green.
+
+```
+<ng2stepper elements="4" active="2" size="table" color="yellow"></ng2stepper>
+```
+or 
+```
+<ng2stepper elements="4" active="2" color="yellow"></ng2stepper>
+```
+
 ***
 

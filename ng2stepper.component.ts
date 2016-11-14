@@ -9,6 +9,8 @@ export class ng2stepper implements OnInit {
 	arr: any = [];
     @Input('elements') elements: number;
     @Input('active') active: number;
+    @Input('size') size: string;
+    @Input('color') color: string;
 	
     constructor() {}
 

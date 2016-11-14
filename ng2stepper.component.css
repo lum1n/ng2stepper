@@ -13,11 +13,6 @@
     height: 10px !important;
 }
 
-.sz-table li:first-child:before {
-    padding:0 !important;
-    margin:0 !important;
-}
-
 .stepper li {
     list-style-type: none;
     float: left;
@@ -53,11 +48,38 @@
     content: none;
 }
 .stepper li.active:before {
-    border-color: green;
-    background-color: green;
+    border-color: #4EBD74;
+    background-color: #4EBD74;
     color: white;
     font-size: large;
 }
 .stepper li.active + li:after {
-    background-color: green;
+    background-color: #4EBD74;
+}
+
+.green li.active:before {
+    border-color: #4EBD74 !important;
+    background-color: #4EBD74 !important;
+}
+
+.green li.active + li:after {
+    background-color: #4EBD74 !important;
+}
+
+.yellow li.active:before {
+    border-color: #F8CB01 !important;
+    background-color: #F8CB01 !important;
+}
+
+.yellow li.active + li:after {
+    background-color: #F8CB01 !important;
+} 
+
+.red li.active:before {
+    border-color: #F86C6B !important;
+    background-color: #F86C6B !important;
+}
+
+.red li.active + li:after {
+    background-color: #F86C6B !important;
 }
