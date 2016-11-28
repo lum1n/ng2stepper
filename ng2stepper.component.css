@@ -13,6 +13,10 @@
     height: 10px !important;
 }
 
+.content-blank li:before {
+    content: ' ' !important;
+}
+
 .stepper li {
     list-style-type: none;
     float: left;

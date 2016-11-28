@@ -52,6 +52,11 @@ or
 ```
 <ng2stepper elements="4" active="2" color="yellow"></ng2stepper>
 ```
+- Remove step-numbers:
+
+```
+<bg2stepper elements="4" active="2" content="blank"></ng2stepper>
+```
 
 ***
 

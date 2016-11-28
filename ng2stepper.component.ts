@@ -11,7 +11,8 @@ export class ng2stepper implements OnInit {
     @Input('active') active: number;
     @Input('size') size: string;
     @Input('color') color: string;
-	
+    @Input('content') content: string;
+    
     constructor() {}
 
     ngOnInit() { 
